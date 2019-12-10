@@ -2,7 +2,8 @@
 
 This library was created for the generation of novel molecules using Transformer-based architectures and reinforcement learning.
 
-## Installation
+## src
+src/models is the primary folder containing the code detailing the deep generative model architectures. src also contains files for training a generator and predictor as well as a file for the biasing training of a generator.
 
 
 ## Usage
