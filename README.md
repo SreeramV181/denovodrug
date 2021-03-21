@@ -12,7 +12,7 @@ All of the necessary code is contained in the jupyter notebook. If running in Go
 
 Below is an explanation of each of the hyperparameters, along with their default values.
 
-```bash
+
 device: device on which to run the model (type: int, default: 0)
 
 use_sage: whether model used should be GraphSAGE; falses uses GCN (type: bool, default: True)
@@ -42,7 +42,7 @@ attack: type of training method used (MUST BE EITHER 'flag' or 'vanilla') (type:
 percent_keep: what percentage of edges to keep in the adjacency matrix in drop edge (type: float, default: .7)
 
 epsilon: approximate percentage of time we want to use the entire adjacency matrix in training instead of dropping edges (type: float, default: 0)
-```
+
 
 The hyperparameters can be modified within the args dictionary under the Main heading in the notebook.
 
